@@ -1,0 +1,306 @@
+@charset "UTF-8";
+
+HTML{
+    padding: 0;
+    margin: 0;
+    min-width: 550px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFE8C6;
+    font-weight: lighter;
+    color: rgb(102,89,69);
+    font-size: 100%;
+    letter-spacing: 0.08rem;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+main{
+    padding: 0px;
+    margin: 0px;
+    min-width: 550px
+    
+}
+/* start of Navigation*/
+
+#headerlinks{
+    text-align: right;
+    
+}
+#headerlinks li{
+    list-style: none;
+    display: inline-block;
+    padding: 3px;
+    margin: 2px;
+    font-size: 12px;
+    
+}
+
+#primarynav {
+    background-color:rgb(33,119,178);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+
+#primarynav li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+    margin: 0px;
+}
+
+#footernav{
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(33,119,178);
+    color: red;
+    text-align: center;
+    border: 1px solid black;
+    clear: both;
+}
+#footernav li {
+    list-style: none;
+}
+
+.trans_nav{
+    border: 5px solid black;
+    width: 100%;
+    height: 400px;
+    line-height: 3rem;
+    margin-top: 15em;
+}
+
+.trans_nav h3{
+    color: black;
+    font-size: 70%;
+}
+
+.trans_nav ul{
+    font-size: 30px;
+    
+}
+
+.trans_nav h3{
+    font-size: 50px;
+}
+
+#reviewer1{
+    list-style-image: url(media/index/puppy1.jpg)
+}
+
+#rail_bullet{
+    list-style-image: url(media/transport/rail_icon.png);
+}
+#taxi_bullet{
+    list-style-image: url(media/transport/taxi_icon.png);
+}
+#tube_bullet{
+    list-style-image: url(media/transport/tube_icon.png);
+}
+#bus_bullet{
+    list-style-image: url(media/transport/bus_icon.png);
+}
+
+a:link {
+    text-decoration: none;
+    color:black;
+}
+
+a:visited {
+    color:black;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+a:active {
+    color: rgb(189,232,255);
+}
+
+
+/* End of Navigation*/
+
+/* start of intro*/
+img.bigben{
+    display: block;
+    margin: auto; 
+    padding: 10px;
+}
+
+img.placeimage{
+    margin-right: 25%;
+    
+}
+
+#reviewer ul{
+    font-size: 40px;
+}
+
+
+.intro{
+    margin: auto;
+    max-width: 550px;
+} 
+
+
+.intro p {
+    max-width: 550px;
+    margin: auto;
+}
+/* end of intro*/
+/* start of reviews*/
+
+.review{
+    margin-left: auto;
+    margin-right:auto;
+    max-width: 400px;
+}
+
+.review p{
+    padding: 0;
+}
+
+img.reviewer{ 
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+    /* end of reviews*/
+.hours_box{
+    color:rgb(102,89,69);
+    border: 2px solid rgb(102,89,69);
+    width: 260px;
+    height: 240px;
+    line-height: 1.3rem;
+    margin: 5px;
+  
+}
+
+.price_box{
+    border: 2px solid rgb(102,89,69);;
+     color:rgb(102,89,69);
+    width: 260px;
+    height: 240px;
+    line-height: 1.3rem;
+    margin: 5px;
+}
+h1{
+    text-align: left;
+    font-weight: lighter;
+    font-size: 300%;
+    margin-left: 0;
+}
+
+h2{
+    text-align: left;
+    font-weight: lighter;
+    font-size: 200%;
+  
+    
+}
+
+h3{
+    text-align: left;
+    font-weight: lighter;
+    font-size: 150%;
+    padding:5px;
+    
+
+}
+h4{
+    text-align: left;
+    font-weight: lighter;
+    font-size: 125%;
+    text-align: left;
+
+}
+
+
+/* start of places*/
+.places-cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-heading{
+    text-align: left;
+    flex:1 0 100%;
+    margin-left: 160px;
+}
+
+/* https://stackoverflow.com/questions/37468745/vertically-center-heading-element-and-group-of-inline-divs-using-flexbox */
+
+.flex-box{
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+.flex-box{
+    max-width: 450px;
+}
+/* end of places*/
+
+.box_title{
+     font-style: italic;
+     text-decoration: underline;      
+}
+
+.places_cont{
+    min-width: 820px;
+}
+/* end of places */
+
+
+/* start of transport*/
+.trans-cont{
+    max-width: 930px;
+    margin: auto;
+    padding: 10px
+    
+}
+
+
+.left_colm{
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 255px;
+}
+
+.right_colm{
+    float:right;
+    right:50px;
+    max-width: 500px;
+    line-height: 1.8rem;
+}
+/* end of transport*/
+
+/* start of travel tips*/
+
+.travel-tips{
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.travel-tips h3{
+    text-align: left;
+}
+
+.travel-tips p{
+    line-height: 1.3rem;
+    letter-spacing: 0.1rem;
+    padding: 0px;
+}
