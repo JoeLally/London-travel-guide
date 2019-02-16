@@ -1,2 +1,4 @@
 # London-travel-guide
-A small guide to london
+
+A travl guide to London HTML and CSS.
+
